@@ -1,0 +1,39 @@
+Funciones
+1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+
+🙌¿Qué es una función?
+R: Las funciones nos permiten guardar(encapsular) bloques de codigo para reutilizarlos y ejecutarlos en el futuro
+
+🙌¿Cuándo me sirve usar una función en mi código?
+R: Nos sirve cuando tenemos variables o bloques de código muy parecidos 
+(con cambios que podrían ser parámetros y argumentos) que podemos encapsular para reutilizar más de una vez en el futuro
+También nos sirve para ordenar y mejorar la legibilidad de nuestro código.
+
+¿Cuál es la diferencia entre parámetros y argumentos de una función?
+R: Las funciones reciben parámetros cuando las creamos y argumentos de una función 
+es cuando enviamos argumentos cuando las ejecutamos.
+
+
+2️⃣ Convierte el siguiente código en una función, pero cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
+const name = "Alvaro N";
+const lastname = "Benites Hernandez";
+const completeName = name + lastname;
+const nickname = "alvaroph";
+
+console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
+
+Esta funcion guarda el nombre completo de un usuario
+function nameC (name, lastname){
+    return name + " " + lastname;
+}
+
+Esta funcion me permite saludar usando parametros y recibiendo argumentos
+function holaN (name, lastname, username){
+    const completeName = nameC (name, lastname)
+    console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + username + ".");   
+}
+
+Ejecucion(complete)
+holaN("Marcia", "Rodriguez", "Macita");
+Respuesta
+Mi nombre es Marcia Rodriguez, pero prefiero que me digas Macita.

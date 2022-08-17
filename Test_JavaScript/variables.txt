@@ -1,0 +1,50 @@
+🙌¿Que es una Varible y para que Sirve?
+R: Es un espacio en memoria donde podemos guardar informacion
+Dependiendo de los tipos y estructuras de datos que soporte el
+lenguaje😁
+
+🙌¿Cual es la diferencia entre declarar e inicializar una Varible?
+R: Declarar una variable es reservar un espacio en memoria que luego pude tener datos
+Inicializar una variable es asignarle un valor a una variable que ya existe
+y Reinicializar una variable es cuando le cambiamos el valor a una variable que ya tiene un valor
+
+Nota: Let: es un tipo de variable que puede ser mutada y Const es un tipo de dato que no puede cambiarse su valor al declara una variable😒
+
+🙌¿Cual es la diferencia entre sumar numeros y concatenar String?
+R:La diferencia radica en que cuando sumamos numeros al final objetemos la suma de dos numeros por ejemplo(2+2=4)
+y cuando concatenamos un estring es que a una cadena de String le añadimos otra cadena por ejemplo("Hola"+" Mundo"= "Hola Mundo")
+
+🙌¿Cual es el operador que me permite sumar o concatenar?
+R: +, el operador de suma nos permite que cumpla su funcion principal como es la suma
+y concatenar un valor a un string.
+
+2️⃣ Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+
+Nombre: String
+Apellido: String
+Nombre de usuario en Platzi: String (@alvaro)
+Edad: Number
+Correo electrónico: String (alvaro@gmail.com)
+Mayor de edad: Boolean
+Dinero ahorrado: Number
+Deudas: Number
+
+3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
+
+let nombre = 'Alvaro';
+let apellido = 'Hernandez';
+let username = 'alvaroph'
+let edad = 20;
+let email = 'alvaropineda@gmail.com'
+let isMy_edad = true;
+let moneyAhorrado = 2500;
+let deudas = 1000;
+
+4️⃣ Calcula e imprime las siguientes variables a partir de las variables del ejemplo anterior:
+
+Nombre completo (nombre y apellido)
+let nombreCompleto;
+nombreCompleto = nombre + ' ' + apellido;
+
+Dinero real (dinero ahorrado menos deudas)
+let dineroReal = moneyAhorrado - deudas;
